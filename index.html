@@ -3,26 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Loan Calculator</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Loan Calculator Hub</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="calculator">
-    <h2>Loan Calculator</h2>
+  <header>
+    <h1>Loan Calculator Hub</h1>
+    <p>Choose a calculator below:</p>
+  </header>
 
-    <label for="amount">Loan Amount ($):</label>
-    <input type="number" id="amount" placeholder="Enter loan amount">
-
-    <label for="interest">Annual Interest Rate (%):</label>
-    <input type="number" id="interest" placeholder="Enter interest rate">
-
-    <label for="years">Loan Term (Years):</label>
-    <input type="number" id="years" placeholder="Enter years">
-
-    <button onclick="calculateLoan()">Calculate</button>
-
-    <div id="result"></div>
-  </div>
-  <script src="script.js" defer></script>
+  <main>
+    <ul class="calculator-list">
+      <li><a href="personal-loan.html">Personal Loan Calculator</a></li>
+      <li><a href="mortgage-loan.html">Mortgage Calculator</a></li>
+      <li><a href="car-loan.html">Car Loan Calculator</a></li>
+      <li><a href="credit-card.html">Credit Card Payoff Calculator</a></li>
+    </ul>
+  </main>
 </body>
 </html>
