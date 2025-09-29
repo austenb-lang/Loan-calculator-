@@ -13,9 +13,11 @@
   <div id="car-loan"></div>
 
   <!-- Scripts -->
-  <script src="js/calculators.js" defer></script>
+  <script src="js/calculators.js"></script>
   <script>
-    setupLoanCalculator("car-loan");
+    document.addEventListener("DOMContentLoaded", () => {
+      setupLoanCalculator("car-loan");
+    });
   </script>
 </body>
 </html>
