@@ -13,9 +13,11 @@
   <div id="mortgage-loan"></div>
 
   <!-- Scripts -->
-  <script src="js/calculators.js" defer></script>
+  <script src="js/calculators.js"></script>
   <script>
-    setupLoanCalculator("mortgage-loan");
+    document.addEventListener("DOMContentLoaded", () => {
+      setupLoanCalculator("mortgage-loan");
+    });
   </script>
 </body>
 </html>
